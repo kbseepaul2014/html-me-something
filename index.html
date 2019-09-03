@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Resume</title>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function() {
+            var docElem = $(document),
+                fade = $(".box , .break, .points");
+            docElem.on('scroll', function() {
+                var currentPos = docElem.scrollTop();
+
+                fade.each(function() {
+                    var $this = $(this),
+                        topElem = $this.offset().top;
+                    if (currentPos > topElem) $this.css('opacity', 1 - (currentPos - topElem) / 400);
+                });
+            });
+        });
+    </script>
+
+
+</head>
+
+<body>
+    <div class="box">
+        <h1 class="points">KEVIN SEEPAUL</h1>
+        <p class="points">777, Glades Road, Boca Raton, FL, 33431<br/> (954)-817-2511 | kseepaul2014@fau.edu</p>
+        <div class="break"></div>
+        <h3>I am a student at Florida Atlantic University pursuing my Bachelor's Degree in Computer Science</h3>
+        <p class="points">My interests lie in coding, music, gaming and connecting with people from all walks of life.</p>
+
+        <div class="social-icons">
+            <a href="https://www.facebook.com/kevin.seepaul" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a>
+            <a href="https://github.com/kbseepaul2014" target="_blank"><i class="fa fa-github-alt" aria-hidden="true"></i></a>
+        </div>
+    </div>
+    <div>
+        <h2>OBJECTIVE</h2>
+        <ul class="points">
+            To use my 4+ year degree in Computer Science as well as my experience in direct sales to help develop potential programs and applications present them to buyers who see useful to their businesses and jobs.
+        </ul>
+    </div>
+    <div>
+        <h2>EDUCATION</h2>
+        <h3>Naparima College (Trinidad)</h3>
+        <ul class="points">NCSE Subjects:
+            <li>Mathematics</li>
+            <li>Information Technology</li>
+            <li>Principles of Business</li>
+            <li>Principles of Accounting</li>
+            <li>Caribbean Studies</li>
+            <li>C# Game Design</li>
+            <li>Social Studies</li>
+        </ul>
+        <h3>Plantation High School</h3>
+        <ul class="points">
+            <li>High School Diploma</li>
+            <li>International Baccalaureate Program</li>
+        </ul>
+        <h3>Florida Atlantic University</h3>
+        <ul class="points">
+            <li>Bachelor of Computer Science (In progress)</li>
+        </ul>
+    </div>
+    <div>
+        <h2>SKILLS & ABILITIES</h2>
+        <h3>Programming</h3>
+        <ul class="points">C/C++, C#, Python, Java(Android), HTML5, CSS3, Git, Foundations of Computer Science, Principles of Software Engineering, Internet Computing. </ul>
+        <h3>Communication</h3>
+        <ul class="points">Public Speaking and Presentation Director at Naparima College in Trinidad and Tobago</ul>
+        <h3>Leadership</h3>
+        <ul class="points">
+            <li>Vice President of National Art Honor Society at Plantation High School</li>
+            <li>Interim captain of the Naparima College Football (Soccer) team in Trinidad</li>
+            <li>Grant House Leader at Naparima College, Trinidad</li>
+        </ul>
+    </div>
+    <h2>WORK EXPERIENCE</h2>
+    <h3>Teleperformance USA</h3>
+    <ul class="points">
+        <li>Apple Technical Advisor (June 2016 – August 2016) </li>
+    </ul>
+</body>
+</html>
