@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+BODY {
+    background: url(img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.break {
+    width: 350px;
+    border-top: 1px solid white;
+    margin: 0 auto;
+}
+
+h1 {
+    font-family: 'serif', 'cursive';
+    font-style: italic;
+    font-weight: 100;
+    letter-spacing: 6;
+    font-size: 40px;
+}
+
+h2,
+h3 {
+    font-style: italic;
+    color: white;
+    text-shadow: 1px 1px #111111;
+    font-weight: 150;
+    text-align: center;
+    font-family: 'serif', 'cursive';
+    font-size: 20px;    
+}
+
+p {
+    font-family: 'serif', 'cursive';
+    font-size: 15px;
+    color: white;
+}
+
+.box {
+    width: 400px;
+    height: 400px;
+    padding: 25px;
+    background: black;
+    opacity: 0.5;
+    color: white;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.social-icons {
+    font-size: 40px;
+}
+
+.social-icons a {
+    color: white;
+}
+.points {
+    font-family: monospace;
+    text-align: center;
+    list-style-position:inside;
+    font-weight: 100;
+    color: white;
+    text-shadow: 1px 1px #111111;
+}
